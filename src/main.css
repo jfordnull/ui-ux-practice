@@ -4,7 +4,7 @@
 
 @layer utilities{
     .sidebar {
-        @apply flex flex-col h-screen w-28 bg-green-900 items-center;
+        @apply fixed flex flex-col h-screen w-28 bg-gradient-to-b from-green-700 to-green-950 items-center z-10;
     }
 
     .sidebar-btn {
