@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .sidebar {
+        @apply flex flex-col h-screen w-28 bg-green-900 items-center;
+    }
+
+    .sidebar-btn {
+        @apply relative flex text-left m-2 bg-green-500 w-16 h-16 items-center justify-center 
+        rounded-full hover:bg-green-300 hover:w-20 hover:h-20 transition-all duration-200 ease-linear;
+    }
+}
